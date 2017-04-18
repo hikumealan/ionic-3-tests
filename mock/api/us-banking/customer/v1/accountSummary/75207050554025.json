@@ -1,0 +1,40 @@
+{
+  "firstName": "Prashanth",
+  "lastName": "Purushotaman",
+  "lastLoginTime": null,
+  "accounts": [
+    {
+      "accountNumber": "3869362779",
+      "productName": null,
+      "currentBalance": -200000,
+      "availableBalance": null,
+      "principalBalance": null,
+      "outstandingBalance": null,
+      "currency": "CAD",
+      "productType": "NONE",
+      "product": {
+        "prodTypeCode": "100021",
+        "categoryCode": "120",
+        "prodShortName": "CONV INS",
+        "prodDispName": "Mortgage",
+        "prodDispNameFr": "Prêt hypothécaire",
+        "prodDisplayable": "TRUE",
+        "prodIsAccount": null,
+        "prodIsPlan": "FALSE",
+        "prodTypeAccnt": "M",
+        "productCategory": {
+          "categoryCode": "120",
+          "categoryName": "Loans and Mortgages",
+          "categoryNameFr": "",
+          "categoryDisp": "",
+          "subCategoryName": "Mortgage Accounts",
+          "subCategoryNameFr": "",
+          "subCategoryDisp": "",
+          "subSubCategoryName": "Mortgage Accounts",
+          "subSubCategoryNameFr": "",
+          "subSubCategoryDisp": ""
+        }
+      }
+    }
+  ]
+}

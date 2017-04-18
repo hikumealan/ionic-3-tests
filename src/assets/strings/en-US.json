@@ -1,0 +1,77 @@
+{
+  "SECTION": {
+    "LABEL": "value"
+  }
+  , "APP": {
+      "GENERAL": {
+        "ACCOUNT": "Account"
+      },
+      "MENU": {
+        "TITLE": "Menu"
+        , "LOGIN": "Login"
+        , "ACCOUNT_SUMMARY": "Account Summary"
+        , "VERSION": "Version:"
+        , "LOGOUT" : "Log Out"
+      },
+      "ALERT": {
+        "TITLE": "Please Update",
+        "MESSAGE": "There is a newer version of the application available, please update.",
+        "BUTTONS": {
+          "OK": "OK"
+        }
+      }
+  }
+  ,"PAGE": {
+    "LOGIN": {
+      "TITLE": "Login Page"
+      , "SIGN_IN_TEXT_HEADER": "Sign-In to Online Banking"
+      , "CARD_NUMBER": {
+        "LABEL": "User Id"
+      }
+      , "PASSWORD": {
+        "LABEL": "Password"
+      }
+      , "REMEMBER": {
+        "LABEL": "Remember Me"
+      }
+      , "SUBMIT": {
+        "LABEL": "Continue"
+      }
+      , "FORGOT": {
+        "LABEL": "Forgot Your Password?"
+      }
+      , "ONLINE_BANKING": {
+        "TEXT_HEADER": "New to Online Banking?"
+        , "OPTION_1_TITLE": "BMO Debit Card Holders:"
+        , "OPTION_1_CONTENT": "To access BMO Online Banking you will need your BMO Debit Card and the account number(s) linked to your card. You will also be asked some security questions."
+        , "OPTION_2_TITLE": "BMO Credit Card Holders:"
+        , "OPTION_2_CONTENT": "To register for Online Banking, you will need your BMO Credit Card. You will also be asked some additional security questions."
+        , "BUTTON_TEXT": "Register Online"
+      }
+      , "LOADER": {
+        "LABEL": "Please Wait..."
+      }
+
+    },
+    "ACCOUNT_SUMMARY": {
+      "MAIN_TITLE": "Account Summary"
+      , "OPEN_NEW": "Open New"
+      , "ADD_EXISTING": "Add Existing"
+      , "NO_BANK_ACCOUNTS": "You do not have any Bank Accounts"
+      , "BANK_ACCOUNTS_BTN_1": "Open New Bank Account"
+      , "BANK_ACCOUNTS_BTN_2": "Add Existing Bank Account"
+      , "TRANSFER_BILL_TITLE": "Quick Bill Payment Or Transfer"
+    },
+    "FORCED_UPDATE": {
+      "TITLE": "Please Update",
+      "MESSAGE": "While some menu options are available, full functionality will not be available until you update.",
+      "LABELS": {
+        "CV": "Current Version:",
+        "RV": "Required Version:"
+      }
+    }
+  }
+  ,"ERROR": {
+    "CODE": "Message with %spots% for %dynamic% content and substitutions."
+  }
+}
