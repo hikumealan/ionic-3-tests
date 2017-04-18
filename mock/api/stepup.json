@@ -1,7 +1,0 @@
-{
-  "error": {
-    "code": "123",
-    "type": "STEP_UP_REQUIRED"
-  },
-  "success": false
-}

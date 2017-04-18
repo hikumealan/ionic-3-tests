@@ -1,5 +1,6 @@
-import { async, TestBed } from '@angular/core/testing';
+import { TestBed, async } from '@angular/core/testing';
 import { IonicModule } from 'ionic-angular';
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { ApplicationVersion } from '../providers/application-version';
@@ -7,13 +8,13 @@ import { ApplicationEnvironment } from '../providers/application-environment';
 
 import { MyApp } from './app.component';
 
-describe('MyApp Component', () => {
-  let fixture;
-  let component;
 
+describe('MyApp Component', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [MyApp],
+      declarations: [
+        MyApp
+      ],
       imports: [
         IonicModule.forRoot(MyApp)
       ],
@@ -23,20 +24,25 @@ describe('MyApp Component', () => {
         ApplicationEnvironment,
         ApplicationVersion
       ]
-    });
+    }).compileComponents();
   }));
 
-  beforeEach(() => {
-    fixture = TestBed.createComponent(MyApp);
-    component = fixture.componentInstance;
-  });
+  it('should create the app', async(() => {
+    const fixture = TestBed.createComponent(MyApp);
+    const app = fixture.debugElement.componentInstance;
+    expect(app).toBeTruthy();
+  }));
 
-  it ('should be created', () => {
-    expect(component instanceof MyApp).toBe(true);
+  it ('should be the right type', () => {
+    const fixture = TestBed.createComponent(MyApp);
+    const app = fixture.debugElement.componentInstance;
+    expect(app instanceof MyApp).toBe(true);
   });
 
   it ('should have two pages', () => {
-    expect(component.pages.length).toBe(2);
+    const fixture = TestBed.createComponent(MyApp);
+    const app = fixture.debugElement.componentInstance;
+    expect(app.pages.length).toBe(2);
   });
 
 });

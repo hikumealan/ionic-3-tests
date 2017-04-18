@@ -48,8 +48,6 @@
     "test": "karma start ./test-config/karma.conf.js",
     "outdated": "npm outdated",
     "check": "tslint . && karma start",
-    "precommit": "npm test",
-    "prepush": "npm test"
   },
   "dependencies": {
     "@angular/animations": "4.0.0",
